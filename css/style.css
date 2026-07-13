@@ -1,0 +1,15 @@
+.hover-white:hover {
+  color: #fff !important;
+}
+.tracking-wide {
+  letter-spacing: 1px;
+}
+
+/* Hero banner css */
+.tracking-wide { letter-spacing: 2px; }
+.carousel-item { transition: transform 1.2s ease-in-out, opacity 1s ease-in-out; }
+
+
+/* Feature css */
+ .portfolio-item .portfolio-img { transition: transform 0.5s ease; }
+.portfolio-item:hover .portfolio-img { transform: scale(1.05); }
