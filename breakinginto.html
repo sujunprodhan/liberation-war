@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <!-- Bootstrap Icon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Product Details Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-5">
+          <!-- Left: Image Gallery -->
+          <div class="col-lg-6">
+            <div class="row g-2 flex-column-reverse flex-md-row">
+              <!-- Thumbnails -->
+              <div class="col-12 col-md-2 d-flex flex-row flex-md-column gap-2">
+                <img
+                  src="./assest/war2.jpeg"
+                  alt="Thumb"
+                  class="img-fluid rounded border border-2 border-primary object-fit-cover cursor-pointer"
+                  style="height: 80px"
+                />
+                <img
+                  src="./assest/war4.avif"
+                  alt="Thumb"
+                  class="img-fluid rounded border object-fit-cover cursor-pointer opacity-50 hover-opacity-100"
+                  style="height: 80px"
+                />
+                <img
+                  src="./assest/War1.png"
+                  alt="Thumb"
+                  class="img-fluid rounded border object-fit-cover cursor-pointer opacity-50 hover-opacity-100"
+                  style="height: 80px"
+                />
+              </div>
+              <!-- Main Image -->
+              <div class="col-12 col-md-10">
+                <div class="position-relative overflow-hidden rounded-3 shadow-sm">
+                  <img
+                    src="./assest/war2.jpeg"
+                    id="mainProductImg"
+                    alt="Main Product Image"
+                    class="img-fluid object-fit-cover bg-light product-zoom"
+                    style="height: 500px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Product Info -->
+          <div class="col-lg-6">
+            <span class="badge bg-success-subtle text-success px-2 py-1 rounded-1 mb-2"
+              >Breaking into freedom</span
+            >
+            <h2 class="fw-bold mb-2">Bangladesh Breaking into freedom</h2>
+            <p class="text-muted mb-4">
+               Every March 26th brings with it a reminder of the victory we fought for, crept
+                  into, on a bloodshed land as the seasons changed and returned. Between Falgun and
+                  Poush, on March 26 1971, we had gone from becoming half of a country, to a full,
+                  new nation. We had birthed. And in that birth, we lost — sons, mothers, brothers,
+                  fathers, uncles. Growing up in the diaspora, our experience and understanding of
+                  the liberation war varies significantly from household to household. Though some
+                  of us grow up hearing stories of the war, many never hear of it. For our parents
+                  and grandparents, these stories are complex and their implications profound. There
+                  is pride, of the accomplishments and the sacrifice offered to give rise to a
+                  liberated Bangladesh. There is sadness and torment, of the unspeakable pain and
+                  suffering experienced and witnessed. There is guilt, of leaving memories behind.
+                  There is uncertainty, of whether to burden our generation with the weight of war.
+                  As time passes, inevitably, bits of memory of the war and the freedom, have begun
+                  to fade. Thus, there is responsibility, for our generation to remember this
+                  history and to acknowledge our story.
+            </p>
+
+            <hr class="text-muted opacity-25 mb-4" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog -->
+    <!-- Blog / Insights Section -->
+    <section class="py-5 bg-white">
+      <div class="container py-4">
+        <!-- Header -->
+        <div
+          class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-5 gap-4"
+        >
+          <div class="text-center text-md-start">
+            <h6 class="text-primary fw-bold text-uppercase tracking-wide mb-2">Insights</h6>
+            <h2 class="display-6 fw-bold mb-0">Latest Articles</h2>
+          </div>
+          <div class="text-center">
+            <a
+              href="#"
+              class="btn btn-outline-dark rounded-pill px-4 py-2 fw-bold hover-primary-btn"
+              >View All Posts</a
+            >
+          </div>
+        </div>
+
+        <!-- Blog Grid -->
+        <section class="py-5 bg-white">
+          <!-- Blog Grid -->
+          <div class="row g-4">
+            <!-- Post 1 -->
+            <div class="col-md-6 col-lg-4">
+              <div
+                class="card border border-light shadow-sm rounded-4 h-100 hover-lift overflow-hidden bg-light bg-opacity-50 blog-card"
+              >
+                <!-- Thumbnail -->
+                <div class="position-relative overflow-hidden" style="height: 220px">
+                  <img
+                    src="./assest/war4.avif"
+                    alt="Blog Image"
+                    class="img-fluid w-100 h-100 object-fit-cover blog-img"
+                  />
+                  <div
+                    class="position-absolute top-0 start-0 m-3 badge bg-primary px-3 py-2 rounded-pill tracking-wide shadow-sm"
+                  >
+                    3 December 1971
+                  </div>
+                </div>
+
+                <!-- Content -->
+                <div class="card-body p-4 d-flex flex-column">
+                  <!-- Meta -->
+                  <div class="d-flex align-items-center text-muted small fw-medium mb-3 gap-3">
+                    <span><i class="bi bi-calendar3 me-1"></i> Oct 24, 2023</span>
+                    <span><i class="bi bi-clock me-1"></i> 5 min read</span>
+                  </div>
+
+                  <!-- Title -->
+                  <h4 class="fw-bold mb-3">
+                    <a href="#" class="text-dark text-decoration-none hover-primary stretched-link"
+                      >5 heroes of 1971 Bangladesh Liberation War win over Pakistan</a
+                    >
+                  </h4>
+
+                  <!-- Excerpt -->
+                  <p class="text-muted mb-4 line-clamp-2">
+                    An On 3 December 1971, Pakistan Air Force had carried out preemptive aerial
+                    strikes on 11 Indian Air Force stations, setting off hostilities between the two
+                    neighbours. The day also marked India’s entry into the liberation war being
+                    fought in East Pakistan, which is now Bangladesh. The war, which lasted 13 days,
+                    ended with the surrender of nearly 90,000 Pakistani soldiers — the largest
+                    surrender by an Army since World War-II. India won the war decisively —
+                    splitting Pakistan into two, with the creation of Bangladesh. The war, however,
+                    came at a price for India — nearly 3,900 Indian soldiers were killed and nearly
+                    10,000 others injured, with many left to suffer from life-long disabilities.
+                    Among the Indians fighting the war were five heroes whose unforgettable
+                    contribution led to the decisive win.
+                  </p>
+
+                  <!-- Read More link (styled, but functionality handled by stretched-link) -->
+                  <a
+                    href="./fivehero.html"
+                    class="fw-bold text-primary mt-auto align-self-start position-relative"
+                    style="z-index: 2"
+                    >Read Article <i class="bi bi-arrow-right ms-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Post 2 -->
+            <div class="col-md-6 col-lg-4">
+              <div
+                class="card border border-light shadow-sm rounded-4 h-100 hover-lift overflow-hidden bg-light bg-opacity-50 blog-card"
+              >
+                <div class="position-relative overflow-hidden" style="height: 220px">
+                  <img
+                    src="./assest/war2.jpeg"
+                    alt="Blog Image"
+                    class="img-fluid w-100 h-100 object-fit-cover blog-img"
+                  />
+                  <div
+                    class="position-absolute top-0 start-0 m-3 badge bg-success px-3 py-2 rounded-pill tracking-wide shadow-sm"
+                  >
+                    Breaking into freedom
+                  </div>
+                </div>
+                <div class="card-body p-4 d-flex flex-column">
+                  <div class="d-flex align-items-center text-muted small fw-medium mb-3 gap-3">
+                    <span><i class="bi bi-calendar3 me-1"></i> Oct 18, 2023</span>
+                    <span><i class="bi bi-clock me-1"></i> 4 min read</span>
+                  </div>
+                  <h4 class="fw-bold mb-3">
+                    <a href="#" class="text-dark text-decoration-none hover-primary stretched-link"
+                      >Breaking into freedom</a
+                    >
+                  </h4>
+                  <p class="text-muted mb-4 line-clamp-2">
+                    Every March 26th brings with it a reminder of the victory we fought for, crept
+                    into, on a bloodshed land as the seasons changed and returned. Between Falgun
+                    and Poush, on March 26 1971, we had gone from becoming half of a country, to a
+                    full, new nation. We had birthed. And in that birth, we lost — sons, mothers,
+                    brothers, fathers, uncles. Growing up in the diaspora, our experience and
+                    understanding of the liberation war varies significantly from household to
+                    household. Though some of us grow up hearing stories of the war, many never hear
+                    of it. For our parents and grandparents, these stories are complex and their
+                    implications profound. There is pride, of the accomplishments and the sacrifice
+                    offered to give rise to a liberated Bangladesh. There is sadness and torment, of
+                    the unspeakable pain and suffering experienced and witnessed. There is guilt, of
+                    leaving memories behind. There is uncertainty, of whether to burden our
+                    generation with the weight of war. As time passes, inevitably, bits of memory of
+                    the war and the freedom, have begun to fade. Thus, there is responsibility, for
+                    our generation to remember this history and to acknowledge our story.
+                  </p>
+                  <a
+                    href="./breakinginto.html"
+                    class="fw-bold text-primary mt-auto align-self-start position-relative"
+                    style="z-index: 2"
+                    >Read Article <i class="bi bi-arrow-right ms-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Post 3 -->
+            <div class="col-md-6 col-lg-4">
+              <div
+                class="card border border-light shadow-sm rounded-4 h-100 hover-lift overflow-hidden bg-light bg-opacity-50 blog-card"
+              >
+                <div class="position-relative overflow-hidden" style="height: 220px">
+                  <img
+                    src="./assest/War1.png"
+                    alt="Blog Image"
+                    class="img-fluid w-100 h-100 object-fit-cover blog-img"
+                  />
+                  <div
+                    class="position-absolute top-0 start-0 m-3 badge bg-warning text-dark px-3 py-2 rounded-pill tracking-wide shadow-sm"
+                  >
+                    Bangladesh win over Pakistan
+                  </div>
+                </div>
+                <div class="card-body p-4 d-flex flex-column">
+                  <div class="d-flex align-items-center text-muted small fw-medium mb-3 gap-3">
+                    <span><i class="bi bi-calendar3 me-1"></i> Oct 12, 2023</span>
+                    <span><i class="bi bi-clock me-1"></i> 7 min read</span>
+                  </div>
+                  <h4 class="fw-bold mb-3">
+                    <a href="#" class="text-dark text-decoration-none hover-primary stretched-link"
+                      >How to Ace the Technical Interview</a
+                    >
+                  </h4>
+                  <p class="text-muted mb-4 line-clamp-2">
+                    Recently Bangladesh has witnessed sudden riots resulting in a serious situation
+                    in Bangladesh and the resignation of Prime Minister Sheikh Hasina, the primary
+                    focus of the riots was initially over the reservation provided to families of
+                    veterans of the Bangladesh Liberation War 1971. In this article, we will discuss
+                    in detail the Bangladesh Liberation War 1971, issues leading to the war, India’s
+                    role in the war, India’s concerns, and the aftermath of the war. Also to help
+                    students with the preparation and developing answer writing skills for UPSC CSE
+                    mains exam we have attached a Mains practice question, please note that this
+                    topic and practice question is important for UPSC GS 2 and 3 for International
+                    Relations and Internal Security.
+                  </p>
+                  <a
+                    href="./winwar.html"
+                    class="fw-bold text-primary mt-auto align-self-start position-relative"
+                    style="z-index: 2"
+                    >Read Article <i class="bi bi-arrow-right ms-1"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Bootstrap CDN -->
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
